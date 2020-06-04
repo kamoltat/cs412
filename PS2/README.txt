@@ -1,0 +1,1 @@
+To run each file try e.g.,: "node PS2.P3.js"
