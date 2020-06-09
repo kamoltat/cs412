@@ -12,9 +12,7 @@ router.get('/:id', function(req, res, next) {
     res.render('get', { string:req.params.id})
 });
 
-router.get('/:id', function(req, res, next) {
-    res.render('get', { string:req.params.id})
-});
+//this solution to 1c
 
 router.post('/', function(req, res, next) {
     let id = req.body.string;
