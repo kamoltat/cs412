@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', ps4Router);
+app.use('/ps4', ps4Router);
 
 
 // catch 404 and forward to error handler
@@ -41,6 +41,6 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
+app.listen(port, () => console.log(`Example app listening at http://localhost:${port}/ps4`))
 
 module.exports = app;
