@@ -39,12 +39,12 @@ function cache(req, res, next){
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'PS4'}); 
+  res.render('index', { title: 'PS5'}); 
 });
 
 
 // Report the stats of covid-19 of designated country
-router.post('/ps4', cache , async function(req, res, next) {
+router.post('/ps5', cache , async function(req, res, next) {
   try{
     const name = req.body.name;
     let result = await getResultByCountryName(name);

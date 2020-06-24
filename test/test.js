@@ -21,9 +21,9 @@ describe('Home Page', () => {
 
 describe('covid19API call', function() {
     var host = "http://localhost:3000";
-    var path = "/ps4";
+    var path = "/ps5";
 
-    it('should send parameters to: POST /ps4 and return 200 success code ', function(done) {
+    it('should send parameters to: POST /ps5 and return 200 success code ', function(done) {
         chai
             .request(host)
             .post(path)
