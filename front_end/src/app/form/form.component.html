@@ -1,0 +1,12 @@
+<br/>
+<form [formGroup]="countryFormGroup" (ngSubmit)="getCovidStatByCountry()">
+Country: <input id="country"  formControlName="countryControl" required minlength="2"><br/>
+<p>
+    Form Status: {{ countryFormGroup.status }}
+</p>
+<div name="query" *ngIf="countryFormGroup.status == 'VALID'">
+    <button type="submit">Query</button>
+</div>
+</form>
+<br/>
+<app-result [result]="result"></app-result>

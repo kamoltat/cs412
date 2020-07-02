@@ -12,7 +12,8 @@ export const COUNTRIES:COUNTRY[] =
         TotalDeaths: 58,
         NewRecovered: 1,
         TotalRecovered: 3023,
-        Date: '2020-06-24T19:39:41Z'
+        Date: '2020-06-24T19:39:41Z',
+        Cache: true
       },
       {
         Country: "Korea (South)",
@@ -24,6 +25,7 @@ export const COUNTRIES:COUNTRY[] =
         TotalDeaths: 177,
         NewRecovered: 304,
         TotalRecovered: 6325,
-        Date: "2020-04-05T06:37:00Z"
+        Date: "2020-04-05T06:37:00Z",
+        Cache: true
       }
     ]

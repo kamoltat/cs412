@@ -1,0 +1,17 @@
+<div name="outerList">
+    <ul *ngFor="let country of result">
+    <h1>{{country.Country}}</h1>
+        <div name="details" *ngIf="country">
+            <p>NewConfirmed: {{country.NewConfirmed}}</p>
+            <p>TotalConfirmed: {{country.TotalConfirmed}}</p>
+            <p>NewDeaths: {{country.NewDeaths}}</p>
+            <p>TotalDeaths: {{country.TotalDeaths}}</p>
+            <p>NewRecovered: {{country.NewRecovered}}</p>
+            <p>TotalRecovered: {{country.TotalRecovered}}</p>
+            <p>Date: {{country.Date}}</p>
+            <p>Cache: {{country.Cache}}</p>
+        </div>
+  
+    </ul>
+</div>
+  

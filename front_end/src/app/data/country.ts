@@ -9,4 +9,5 @@ export class COUNTRY{
   NewRecovered: number;
   TotalRecovered: number;
   Date: string
+  Cache: boolean
   }

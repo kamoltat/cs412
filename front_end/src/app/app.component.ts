@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import {COUNTRIES} from './data/countryMOCK';
 import {COUNTRY} from './data/country';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -10,7 +9,7 @@ import {COUNTRY} from './data/country';
 export class AppComponent {
 
   countries: COUNTRY[] = COUNTRIES;
-  title = 'PS6';
+  title = 'PS7';
   selectedCountry: COUNTRY;
 
   showStats(country: string) {
